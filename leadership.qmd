@@ -140,5 +140,7 @@ As president of SALSA Mudd, I helped create academic, cultural, and social progr
 
 **Spring 2026**
 
+I spent a day job shadowing a Harvey Mudd alum at Cristek, a connector manufacturer. I sat in on her meetings, saw how the lab approaches connector design, and got a look at what day-to-day engineering work is like in industry.
+
 ![Job shadowing at Cristek.](images/cristek-job-shadow.jpg){fig-alt="William with two others in the Cristek lobby" width=70%}
 
