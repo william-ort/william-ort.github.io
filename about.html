@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – William Ortega | Engineering Portfolio</title>
+<title>About – William Ortega</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -45,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ea1971949f186b5d7ecce1fd3cf000e4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +74,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="About – William Ortega">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://william-ort.github.io/images/headshot.jpg">
+<meta property="og:site_name" content="William Ortega">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -85,8 +91,12 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo.png" alt="William Ortega headshot" class="navbar-logo light-content">
+    <img src="./images/logo.png" alt="William Ortega headshot" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">William Ortega | Engineering Portfolio</span>
+    <span class="navbar-title">William Ortega</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -114,6 +124,23 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> 
 <span class="menu-text">Resume</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/william-ort"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/william-ortega-73aa02318"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:wortega@g.hmc.edu"> <i class="bi bi-envelope-fill" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -156,6 +183,37 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+// Scroll-reveal + navbar shadow. Content stays visible if this script never runs.
+document.addEventListener("DOMContentLoaded", function () {
+  var nav = document.querySelector(".navbar");
+  var onScroll = function () { if (nav) nav.classList.toggle("scrolled", window.scrollY > 10); };
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) return;
+
+  var targets = document.querySelectorAll(
+    "main .work-card, main .now-item, main h2, main h3:not(.work-card h3), main p:not(.work-card p):not(.now-item p), main ul, main ol, main figure, main .columns, main iframe, main .btn"
+  );
+  document.documentElement.classList.add("reveal-ready");
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+    });
+  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+
+  targets.forEach(function (el, i) {
+    if (el.closest(".hero")) return;            // hero has its own entrance animation
+    el.classList.add("reveal");
+    // stagger cards in the same grid
+    if (el.classList.contains("work-card") || el.classList.contains("now-item")) {
+      var idx = Array.prototype.indexOf.call(el.parentNode.children, el);
+      el.style.transitionDelay = (idx * 0.08) + "s";
+    }
+    io.observe(el);
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -229,7 +287,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/william-ort\.github\.io\/william-ortega-portfolio\/");
+        var filterRegex = new RegExp("https:\/\/william-ort\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -557,8 +615,41 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 William Ortega · Harvey Mudd College</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/william-ort">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/william-ortega-73aa02318">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:wortega@g.hmc.edu">
+      <i class="bi bi-envelope-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

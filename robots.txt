@@ -1,1 +1,1 @@
-Sitemap: https://william-ort.github.io/william-ortega-portfolio/sitemap.xml
+Sitemap: https://william-ort.github.io/sitemap.xml
