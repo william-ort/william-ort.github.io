@@ -46,7 +46,7 @@
     "href": "index.html#featured-work",
     "title": "William Ortega",
     "section": "Featured Work",
-    "text": "Featured Work\n\n  \n    \n    \n      Research\n      Flapping-Fin Propulsion\n      Built an 80/20 test fixture and ran 100+ trials, reaching a peak trial-averaged thrust coefficient of about 4.9.\n    \n  \n  \n    MARC\n    \n      Rocketry\n      Competition Rocket Canards\n      Sized canards to keep stability above 1.2 calibers and set up Ansys CFD for the flight controller.\n    \n  \n  \n    \n    \n      Class Project\n      Autonomous Underwater Vehicle\n      Custom sensor board and depth control; measured &gt;80% light loss by 3 m off Dana Point.\n    \n  \n  \n    \n    \n      Client Design\n      Mobile Lectern\n      A $24 collapsible lectern for a professor client that sets up in 1.6 s and holds over 12 lb.\n    \n  \n  \n    \n    \n      Manufacturing\n      Machinist's Hammer\n      Machined from raw steel and nylon to ±0.001 in. on manual mills and lathes.\n    \n  \n  \n    \n    \n      Leadership\n      SHPE Harvey Mudd\n      Co-founded the chapter, grew it to 52 students, and secured $10K for the 2026 National Convention."
+    "text": "Featured Work\n\n  \n    \n    \n      Research\n      Flapping-Fin Propulsion\n      Built an 80/20 test fixture and ran 100+ trials, reaching a peak trial-averaged thrust coefficient of about 4.9.\n    \n  \n  \n    \n    \n      Rocketry\n      Competition Rocket Canards\n      Sized canards to keep stability above 1.2 calibers and set up Ansys CFD for the flight controller.\n    \n  \n  \n    \n    \n      Class Project\n      Autonomous Underwater Vehicle\n      Custom sensor board and depth control; measured &gt;80% light loss by 3 m off Dana Point.\n    \n  \n  \n    \n    \n      Client Design\n      Mobile Lectern\n      A $24 collapsible lectern for a professor client that sets up in 1.6 s and holds over 12 lb.\n    \n  \n  \n    \n    \n      Manufacturing\n      Machinist's Hammer\n      Machined from raw steel and nylon to ±0.001 in. on manual mills and lathes.\n    \n  \n  \n    \n    \n      Leadership\n      SHPE Harvey Mudd\n      Co-founded the chapter, grew it to 52 students, and secured $10K for the 2026 National Convention."
   },
   {
     "objectID": "about.html",
@@ -152,5 +152,12 @@
     "title": "Research",
     "section": "",
     "text": "I will present this research at the APS Division of Fluid Dynamics Annual Meeting in November 2026.\nThe presentation focuses on experimental results from horizontal fully submerged fin configurations and fin aspect-ratio studies, including comparisons of thrust performance and wake behavior across different operating conditions.\n\n\n\n\n\n\nPresenting my summer research poster at Harvey Mudd.\n\n\n\n\n\n\n\nWith the Flow Imaging Lab team."
+  },
+  {
+    "objectID": "research.html#mudd-amateur-rocketry-club-propulsion-subteam",
+    "href": "research.html#mudd-amateur-rocketry-club-propulsion-subteam",
+    "title": "Research",
+    "section": "Mudd Amateur Rocketry Club — Propulsion Subteam",
+    "text": "Mudd Amateur Rocketry Club — Propulsion Subteam\nPropulsion Subteam Member | September 2026 – Present\n\n\n\nThe MARC propulsion subteam.\n\n\nI’m on the propulsion subteam of the Mudd Amateur Rocketry Club (MARC), where I work on the canards for the team’s competition rocket.\n\nSized the canards in OpenRocket, using its optimizer to find dimensions that keep the stability margin above 1.2 calibers while preserving control authority\nSetting up Ansys CFD simulations of the canards and fin tabs to build an aerodynamic lookup table vs. angle of attack for the rocket’s flight controller"
   }
 ]
