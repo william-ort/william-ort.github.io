@@ -1,0 +1,173 @@
+%-------------------------
+% William Ortega — Main resume (Mech / Fluids / Propulsion)
+% Based on Jake Gutierrez's resume template (MIT license)
+% Edits: skills on top, bold dates, larger name, 11pt, one-line headings
+%-------------------------
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins (if it spills onto page 2, shrink these a bit first)
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+%----------- Custom commands -----------
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2.5pt}}}
+
+% Two-line heading (used for Education)
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+% One-line heading: Title ............ Dates (bold)
+\newcommand{\resumeRole}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%=====================================================
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\fontsize{26}{30}\selectfont \textbf{William Ortega}} \\ \vspace{3pt}
+    \small Ontario, CA $|$ 909-228-3985 $|$ wortega@g.hmc.edu $|$
+    \href{https://william-ort.github.io/}{\underline{william-ort.github.io}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Harvey Mudd College}{Expected May 2028}
+      {Bachelor of Science in Engineering, GPA: 3.4}{Claremont, CA}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Fluid Mechanics, Thermodynamics, Statics, Experimental Engineering, Design \& Manufacturing, Signals \& Systems, Differential Equations \& Fourier Analysis, AI-Amplified Prototyping}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{CAD \& Simulation}{: SolidWorks, Ansys (CFD), FEA, COMSOL, OpenRocket} \\
+     \textbf{Programming}{: MATLAB, Python, C++, LabVIEW, SystemVerilog} \\
+     \textbf{Fabrication}{: 2-Axis Machining, 3D Printing, Laser \& Waterjet Cutting, GD\&T, DFM/DFA} \\
+     \textbf{Languages}{: English (Native), Spanish (Native)}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Engineering Experience}
+  \resumeSubHeadingListStart
+
+    \resumeRole
+      {Undergraduate Research Assistant, Flow Imaging Lab, Harvey Mudd College}{Jan. 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Demonstrated higher thrust coefficients for submerged horizontal fins than surface-crossing fins (peak mean $C_T \approx 4.9$) by designing a horizontal-fin test fixture and running 100+ trials across fin thickness, amplitude, and frequency}
+        \resumeItem{Characterized how aspect ratio, flapping frequency, and submersion depth affect thrust across 100+ trials with an ATI Mini40 six-axis load cell and NI DAQ, holding frequency within $\pm$0.02 Hz}
+        \resumeItem{Redesigned the lab's MATLAB thrust-processing pipeline for horizontal fins by remapping the thrust axis and rewriting the in-air inertial correction, enabling direct thrust-coefficient comparison with vertical fins}
+      \resumeItemListEnd
+
+    \resumeRole
+      {Propulsion Subteam Member, Mudd Amateur Rocketry Club (MARC)}{Sept. 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Sized canards for the team's competition rocket with OpenRocket's optimizer, identifying dimensions that kept the stability margin above 1.2 calibers while preserving control authority}
+        \resumeItem{Set up Ansys CFD simulations of the canards and fin tabs to build an aerodynamic lookup table vs. angle of attack for the rocket's flight controller}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Engineering Projects}
+    \resumeSubHeadingListStart
+
+      \resumeRole
+          {Autonomous Underwater Vehicle (Team of 4)}{Jan. 2026 -- May 2026}
+          \resumeItemListStart
+            \resumeItem{Built and deployed a PVC-frame AUV with proportional depth control that profiled light, pressure, and temperature off Dana Point, CA, measuring $>$80\% surface-light loss by 3 m via Beer--Lambert analysis in MATLAB}
+            \resumeItem{Designed and soldered a sensor/DAQ board integrating a TCS34725 RGB sensor (I\textsuperscript{2}C), MPX5700 pressure sensor, and NTC thermistor on a Teensy 4.1, logging depth-resolved data to microSD during motors-off holds to cut noise}
+            \resumeItem{Designed a two-stage MCP6002 op-amp circuit (gain $\approx$ 6.87) that scaled the pressure signal into the 0.3--3.3 V ADC window to prevent clipping, and calibrated voltage-to-depth in saltwater with a linear fit}
+          \resumeItemListEnd
+
+      \resumeRole
+          {Mobile Lectern, Client Design Project (Team of 4)}{Sept. 2025 -- Nov. 2025}
+          \resumeItemListStart
+            \resumeItem{Designed and built a 3 lb, \$24 collapsible lectern for a professor client that sets up in 1.6 s and holds over 12 lb}
+            \resumeItem{Created the SolidWorks CAD model, drawings, and BOM, and laser-cut eco-friendly material for the final prototype}
+          \resumeItemListEnd
+
+      \resumeRole
+          {Machinist's Hammer}{Sept. 2025 -- Nov. 2025}
+          \resumeItemListStart
+            \resumeItem{Calibrated and operated manual mills and lathes to machine a hammer from raw steel and nylon to $\pm$0.001 in.}
+            \resumeItem{Applied drilling, tapping, heat treatment, and tempering while following technical drawings and a process router}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership \& Activities}
+  \resumeSubHeadingListStart
+
+    \resumeRole
+      {Co-Founder \& Co-President, SHPE Harvey Mudd Chapter}{Jan. 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Grew chapter engagement to 52 students through recruiting, outreach, and professional-development programming}
+        \resumeItem{Secured \$10K in institutional funding to send 16 members to the 2026 SHPE National Convention}
+        \resumeItem{Planned 3 professional-development workshops and launched company outreach to build a sponsorship pipeline}
+      \resumeItemListEnd
+
+    \resumeRole
+      {President, Societal Advancement of Latinx (SALSA), Harvey Mudd College}{Jan. 2025 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{Led and planned 5+ cultural and social events each semester to build community and belonging}
+        \resumeItem{Expanded collaboration with five Latinx organizations across the Claremont Colleges}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\end{document}

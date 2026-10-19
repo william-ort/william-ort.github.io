@@ -50,15 +50,15 @@ My work has included:
 
 Across the configurations tested, fully submerged horizontal fins produced **higher thrust coefficients than surface-crossing fins in most cases**.
 
-The highest measured thrust coefficient was approximately:
+The highest trial-averaged thrust coefficient was approximately
 
-\[
-C_T = 4.16
-\]
+$$C_T \approx 4.9$$
 
-for a **1/16-in-thick fin** in the horizontal, fully submerged configuration.
+for a **1/16-in-thick fin** in the horizontal, fully submerged configuration at **2 Hz** (amplitude 2), shown in the plot below.
 
 These results provide a direct experimental comparison between fully submerged and surface-crossing flapping-fin propulsion and help quantify how interaction with the free surface influences thrust production.
+
+![Thrust coefficient vs. flapping frequency at amplitude 2 (D = 10 cm) for four fin thicknesses. Points are averaged across trials (error bars shown). Solid lines: horizontal fins; dashed lines: vertical fins.](images/film-ct-plot.png){fig-alt="Plot of thrust coefficient versus flapping frequency for four fin thicknesses, horizontal and vertical orientations" width=90%}
 
 ## Experimental Methods
 
@@ -96,6 +96,12 @@ For the horizontal configuration, I adapted the existing PIV workflow and implem
 
 The resulting velocity fields allow us to connect changes in measured thrust with changes in wake structure and vortex formation.
 
+::: {layout-ncol=2}
+![The tank lit by the 532 nm laser sheet during a PIV run.](images/film-piv-setup.jpg){fig-alt="Flapping-fin tank illuminated by a green laser sheet"}
+
+![Vorticity field from PIVlab, showing the trailing-edge vortex shed behind the fin (black line).](images/film-vorticity.png){fig-alt="Color map of vorticity behind a flapping fin"}
+:::
+
 ## Aspect-Ratio and Surface-Crossing Experiments
 
 A major portion of my current research investigates how **fin aspect ratio and free-surface exposure** affect propulsive performance.
@@ -123,3 +129,9 @@ The resulting data are being analyzed alongside the horizontal-fin experiments t
 I will present this research at the **APS Division of Fluid Dynamics Annual Meeting in November 2026**.
 
 The presentation focuses on experimental results from **horizontal fully submerged fin configurations and fin aspect-ratio studies**, including comparisons of thrust performance and wake behavior across different operating conditions.
+
+::: {layout-ncol=2}
+![Presenting my summer research poster at Harvey Mudd.](images/film-poster.jpg){fig-alt="William standing next to his research poster"}
+
+![With the Flow Imaging Lab team.](images/film-lab-team.jpg){fig-alt="Flow Imaging Lab group photo"}
+:::

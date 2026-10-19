@@ -11,7 +11,7 @@ I have focused much of my campus leadership on **building professional-developme
 
 ## Society of Hispanic Professional Engineers — Harvey Mudd College
 
-**Founder & Chapter Co-President | January 2026 – Present**
+**Co-Founder & Co-President | January 2026 – Present**
 
 I co-founded Harvey Mudd College's SHPE chapter to expand access to professional development, networking, and engineering opportunities for students across campus.
 
@@ -20,11 +20,11 @@ I co-founded Harvey Mudd College's SHPE chapter to expand access to professional
 ::: {.column width="50%"}
 
 <img
-  src="images/first-gbm-copres.jpg"
-  alt="SHPE Harvey Mudd co-presidents at the chapter's first general body meeting."
+  src="images/shpe-copres-gbm.jpg"
+  alt="SHPE Harvey Mudd co-presidents at General Body Meeting 1, Fall 2026."
   style="width:100%; height:320px; object-fit:contain; display:block; margin:auto;">
 
-*HMC SHPE co-presidents during the chapter's first general body meeting.*
+*SHPE Harvey Mudd co-presidents at General Body Meeting 1, Fall 2026.*
 
 :::
 
@@ -72,6 +72,12 @@ Chapter initiatives have included:
 - Alumni and industry engagement
 - Development of a future company-sponsorship pipeline
 
+::: {layout-ncol=2}
+![Attendees at our first SHPE Harvey Mudd event, a technical portfolio workshop.](images/shpe-portfolio-workshop.jpg){fig-alt="Group of students under the Harvey Mudd seal after the SHPE portfolio workshop"}
+
+![Attendees at our event with Bank of America.](images/shpe-bofa-event.jpg){fig-alt="Group of students behind the Harvey Mudd podium at the SHPE and Bank of America event"}
+:::
+
 ---
 
 ## SALSA Mudd
@@ -85,6 +91,8 @@ As president of SALSA Mudd, I helped create academic, cultural, and social progr
 - Organized study sessions, cultural programming, workshops, movie nights, and community events
 - Expanded collaboration with Latinx organizations across the five Claremont Colleges
 
+![A SALSA Mudd carne asada I hosted on campus.](images/salsa-carne-asada.jpg){fig-alt="Students eating together at picnic tables on the Harvey Mudd lawn" width=80%}
+
 ---
 
 ## Mentorship & Student Support
@@ -96,6 +104,8 @@ As president of SALSA Mudd, I helped create academic, cultural, and social progr
 - Supported approximately **57 first-year students** through move-in, orientation, and their transition into the residential community
 - Helped lead week-long orientation programming and continue to organize residential events throughout the academic year
 - Completed **Mental Health Blue Dot training** to better support students and connect them with appropriate campus resources
+
+![With the mentor team.](images/mentor-team.jpg){fig-alt="Large group of mentors in matching shirts on campus steps" width=85%}
 
 ### Summer Institute Mentor — Harvey Mudd College
 
@@ -121,3 +131,14 @@ As president of SALSA Mudd, I helped create academic, cultural, and social progr
 - Tutored approximately **30 high school students** in Calculus and Precalculus while providing additional afternoon academic support
 - Directly mentored a **seven-student residential cohort** while helping maintain program expectations and student well-being
 - Planned recreational, creative, and college-preparation activities to strengthen cohort engagement and community
+
+---
+
+## Industry Exposure
+
+### Job Shadow — Cristek
+
+**Spring 2026**
+
+![Job shadowing at Cristek.](images/cristek-job-shadow.jpg){fig-alt="William with two others in the Cristek lobby" width=70%}
+
