@@ -135,3 +135,19 @@ The presentation focuses on experimental results from **horizontal fully submerg
 
 ![With the Flow Imaging Lab team.](images/film-lab-team.jpg){fig-alt="Flow Imaging Lab group photo"}
 :::
+
+---
+
+# Rocketry {#marc}
+
+## Mudd Amateur Rocketry Club — Propulsion Subteam
+
+**Propulsion Subteam Member | September 2026 – Present**
+
+![The MARC propulsion subteam.](images/marc-team.jpg){fig-alt="MARC propulsion subteam members holding the club banner, a rocket body, and red 3D-printed parts" width=90%}
+
+I'm on the propulsion subteam of the Mudd Amateur Rocketry Club (MARC), where I work on the **canards** for the team's competition rocket.
+
+- Sized the canards in **OpenRocket**, using its optimizer to find dimensions that keep the stability margin above **1.2 calibers** while preserving control authority
+- Setting up **Ansys CFD** simulations of the canards and fin tabs to build an aerodynamic lookup table vs. angle of attack for the rocket's **flight controller**
+
