@@ -55,7 +55,7 @@ toc: false
     <div class="body">
       <span class="tag">Research</span>
       <h3>Flapping-Fin Propulsion</h3>
-      <p>Built an 80/20 test fixture and ran 100+ trials, reaching a peak trial-averaged thrust coefficient of about 4.9.</p>
+      <p>Built an 80/20 laser frame and a milled fin mount, then ran 100+ trials with a peak trial-averaged thrust coefficient of about 4.9.</p>
     </div>
   </a>
   <a class="work-card" href="research.html#marc">
